@@ -1,0 +1,22 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "rules": { 
+        "no-console": 2,
+        "@typescript-eslint/no-explicit-any": ["off"],
+        "@typescript-eslint/no-unused-vars": "off"
+
+        // "no-unused-expressions": "off"
+        // "noInlineConfig": true    -- Disabling Inline Comments
+        // semi: "error",
+        // "prefer-const": "error"
+    }
+  }
